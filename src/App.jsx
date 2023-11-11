@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./components/navbar";
 import NewsBoard from "./components/newsboard";
-// import NewsItem from "../components/newsitem";
 
 const App = () => {
 
