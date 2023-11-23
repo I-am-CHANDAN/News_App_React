@@ -5,8 +5,7 @@ const NewsBoard = ({ category }) => {
 
     const [article, setArticle] = useState([]);
 
-    // let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${import.meta.env.NEWS_API_KEY}`;
-    const url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=885c3a78ecb941e5812b76aa423ade6f`;
+    const url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${import.meta.env.NEWS_API_KEY}`;
 
     const fetchFunc = () => {
         fetch(url).then(response => response.json())

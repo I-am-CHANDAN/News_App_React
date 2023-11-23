@@ -35,24 +35,6 @@ const Navbar = ({ setCategory }) => {
                 </li>
               </ul>
             </li>
-            {/* <li className="nav-item">
-              <div className="nav-link active text-white" onClick={() => { setCategory("technology") }}>Technology</div>
-            </li> */}
-            {/* <li className="nav-item">
-              <div className="nav-link active text-white" onClick={() => { setCategory("business") }}>Business</div>
-            </li> */}
-            {/* <li className="nav-item">
-              <div className="nav-link active text-white" onClick={() => { setCategory("health") }}>Health</div>
-            </li>
-            <li className="nav-item">
-              <div className="nav-link active text-white" onClick={() => { setCategory("science") }}>Science</div>
-            </li>
-            <li className="nav-item">
-              <div className="nav-link active text-white" onClick={() => { setCategory("sports") }}>Sports</div>
-            </li>
-            <li className="nav-item">
-              <div className="nav-link active text-white" onClick={() => { setCategory("entertainment") }}>Entertainment</div>
-            </li> */}
           </ul>
         </div>
       </div>
